@@ -1,0 +1,30 @@
+<svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<g id="Icon_2">
+<g id="Iocn">
+<rect id="bg" width="56.8481" height="56.8481" rx="13.3238" transform="matrix(1 0 0 -1 0.0201416 57.3552)" fill="url(#paint0_linear_314_105525)"/>
+</g>
+<g id="bg_2" filter="url(#filter0_b_314_105525)">
+<rect width="56.8481" height="56.8481" rx="13.3238" transform="matrix(1 0 0 -1 8.90271 66.2378)" fill="#EEEEEE" fill-opacity="0.61"/>
+<rect x="0.444126" y="-0.444126" width="55.9599" height="55.9599" rx="12.8797" transform="matrix(1 0 0 -1 8.90271 65.3495)" stroke="white" stroke-width="0.888252"/>
+</g>
+<g id="Group 18">
+<path id="Ellipse 125" d="M31.5295 43.3021C29.5895 42.0432 28.1101 40.1891 27.3131 38.0181C26.5161 35.8472 26.4445 33.4763 27.109 31.2611C27.7736 29.046 29.1385 27.1061 30.9989 25.7324C32.8594 24.3587 35.1151 23.6252 37.4277 23.6421C39.7403 23.659 41.9851 24.4252 43.8253 25.826C45.6656 27.2267 47.002 29.1863 47.6342 31.4109C48.2663 33.6355 48.1602 36.005 47.3315 38.1642C46.5029 40.3233 44.9966 42.1555 43.0385 43.3861" stroke="#5956E9" stroke-width="1.7765" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 33" x1="32.8856" y1="46.6962" x2="41.7681" y2="46.6962" stroke="#5956E9" stroke-width="1.7765" stroke-linecap="round"/>
+<path id="Ellipse 126" d="M33.4277 49.3292C32.9371 49.3292 32.5299 49.7316 32.6365 50.2104C32.8257 51.06 33.286 51.8476 33.9703 52.4697C34.8865 53.3026 36.1291 53.7705 37.4248 53.7705C38.7205 53.7705 39.9631 53.3026 40.8793 52.4697C41.5636 51.8476 42.0239 51.06 42.2131 50.2104C42.3197 49.7316 41.9125 49.3292 41.4219 49.3292L37.4248 49.3292L33.4277 49.3292Z" fill="#5956E9"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_314_105525" x="1.79669" y="2.28363" width="71.0602" height="71.0602" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="3.55301"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_314_105525"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_314_105525" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_314_105525" x1="28.4241" y1="0" x2="28.4241" y2="56.8481" gradientUnits="userSpaceOnUse">
+<stop stop-color="#807DFF"/>
+<stop offset="1" stop-color="#BAB9FF" stop-opacity="0.34"/>
+</linearGradient>
+</defs>
+</svg>
