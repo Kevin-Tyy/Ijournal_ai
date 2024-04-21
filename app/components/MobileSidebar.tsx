@@ -80,16 +80,16 @@ export default function MobileSidebar({ onClose, isOpen }: Props) {
         <div className="flex flex-col gap-10">
           {navLinks.map((link, index) => (
             <Link href={link.href} key={index}>
-              <div className={`flex flex-col gap-[10px] items-center cursor-pointer`}>
+              <div className={`flex flex-col gap-[10px] cursor-pointer`}>
                 <h1 className="whitespace-nowrap">{link.label}</h1>
               </div>
             </Link>
           ))}
         </div>
         <div className="flex gap-x-5">
-          <div className="flex gap-x-4">
-            <Link href="/auth/login">
-              <button className="rounded-full bg-gradient-to-br from-[#7769D4] to-[#9586FB] text-white py-4 px-10 shadow-lg shadow-[rgba(96,60,255,0.48)]">
+          <div className="flex gap-x-4 w-full">
+            <Link href="/auth/login" className="w-full">
+              <button className="rounded-full bg-gradient-to-br from-[#7769D4] to-[#9586FB] text-white py-4 px-10 w-full shadow-lg shadow-[rgba(96,60,255,0.48)] whitespace-nowrap">
                 Sign in
               </button>
             </Link>
