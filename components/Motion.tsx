@@ -13,6 +13,7 @@ const Motion: React.FC<Props> = ({ children, transition, variants, classNames, .
       {...restProps}
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true , amount : 0.5 }}
       variants={variants}
       transition={transition}
       className={`w-full ${classNames && classNames}`}>
