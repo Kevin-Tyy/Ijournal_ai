@@ -66,8 +66,8 @@ export default function Home() {
             {features.map((feature, index) => (
               <Motion
                 key={index}
-                transition={{ duration: 0.6, delay: 0.2 * index }}
-                variants={{ hidden: { opacity: 0, y: 80 }, visible: { opacity: 1, y: 0 } }}>
+                transition={{ duration: 0.6, delay: 0.1 * index }}
+                variants={{ hidden: { opacity: 0, y: 100 }, visible: { opacity: 1, y: 0 } }}>
                 <div className="flex flex-col items-center space-y-5 px-10 py-12 sm:py-20 hover:ring-1 hover:ring-inset hover:ring-primary-blue rounded-3xl transition-all duration-500 cursor-pointer hover:shadow-box-hover">
                   <Image src={feature.image_url} alt="" width={70} height={70} />
                   <h1 className="text-center text-xl sm:text-2xl font-bold max-w-[300px] leading-relaxed">{feature.title}</h1>

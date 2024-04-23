@@ -68,7 +68,7 @@ export default function Footer() {
                     <Link href="#">Help center</Link>
                   </li>
                   <li className="hover:underline cursor-pointer">
-                    <Link href="#">Privacy policy</Link>
+                    <Link href="/user-agreements/privacy-policy">Privacy policy</Link>
                   </li>
                   <li className="hover:underline cursor-pointer">
                     <Link href="#">Cookie policy</Link>
@@ -84,7 +84,9 @@ export default function Footer() {
                 <ul className="space-y-5">
                   <li className="hover:underline cursor-pointer">+9155 456 789</li>
                   <li className="hover:underline cursor-pointer">mail@email.com </li>
-                  <button className="rounded-full bg-gradient-to-br from-[#7769D4] to-[#9586FB] text-white py-4 px-6 uppercase ">Chat with Us</button>{" "}
+                  <Link href="/contact">
+                    <button className="rounded-full bg-gradient-to-br from-[#7769D4] to-[#9586FB] text-white py-4 px-6 uppercase mt-5">Chat with Us</button>{" "}
+                  </Link>
                 </ul>
               </div>
             </div>

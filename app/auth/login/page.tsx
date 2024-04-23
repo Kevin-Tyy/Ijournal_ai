@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export default function Login() {
   return (
-    <div className="flex h-screen">
-      <div className="w-full space-y-3 flex justify-end">
-        <div className="flex flex-col justify-between max-w-xl p-4 mr-20">
+    <div className="flex flex-col lg:flex-row min-h-screen h-full">
+      <div className="w-full space-y-3 flex lg:justify-end">
+        <div className="w-full flex flex-col justify-between lg:max-w-xl p-4 pt-8 lg:mr-20 space-y-20">
           <Logo />
-          <div className="space-y-8">
+          <div className="space-y-8 w-full max-w-xl mx-auto">
             <h1 className="text-4xl font-bold">Log in to your account</h1>
             <p className="text-[#54607A] leading-relaxed">
               Lorem ipsum dolor sit amet consectetur. Urna accumsan habitasse in rutrum volutpat nisl quam. Eget auctor ut mi ac ultricies.
@@ -22,7 +22,7 @@ export default function Login() {
               </div>
             </div>
             <div className="space-y-4">
-              <label className="text-[#54607A]">Email</label>
+              <label className="text-[#54607A]">Password</label>
               <div className="bg-[#F6F6F6] rounded-2xl flex items-center gap-4 w-full px-4">
                 <Image src="/icons/unlock.svg" alt="" width={25} height={25} />
                 <input className="h-[65px] w-full bg-transparent outline-none" placeholder="*********" />
@@ -51,11 +51,17 @@ export default function Login() {
           <div />
         </div>
       </div>
-      <div className="w-full h-screen bg-primary-blue relative px-40">
-        <div>
-          <h1 className="text-4xl text-white font-bold">Login to Your Journal Account</h1>
+      <div className="w-full min-h-screen h-full bg-primary-blue relative pt-10 flex justify-end">
+        <div className="max-w-[882px] w-full flex flex-col justify-between gap-10">
+          <div className="space-y-6 px-6">
+            <h1 className="text-4xl text-white font-bold">Login to Your Journal Account</h1>
+            <p className="text-white leading-relaxed max-w-2xl w-full">
+              Lorem ipsum dolor sit amet consectetur. Dictum ac in feugiat eu donec fusce. Ornare accumsan consectetur malesuada sed. Dolor nulla nullam commodo
+              vitae.
+            </p>
+          </div>
+          <Image src="/assets/login-bg-mask.png" alt="" width={1248} height={1248} className="self-end" />
         </div>
-        <Image src="/assets/login-bg-mask.svg" alt="" width={1100} height={1100} className="absolute bottom-0 right-0" />
       </div>
     </div>
   );
