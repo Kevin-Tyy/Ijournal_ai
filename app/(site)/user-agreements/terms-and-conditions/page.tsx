@@ -52,7 +52,6 @@ const Home: React.FC = () => {
     };
   }, []);
 
-  
   const [distanceFromTop, setDistanceFromTop] = useState(0);
 
   const handleTabClick = (index: number) => {
@@ -62,19 +61,21 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="flex gap-10 max-w-[1360px] mx-auto pt-20">
-      <div ref={contentRef} className="ml-8 flex-1 overflow-y-auto bg-gradient-to-tl from-[#FFBC6D]/20 to-[#FFE1BE]/20 rounded-[96px] p-20 mt-10">
+    <div className="flex flex-col-reverse lg:flex-row gap-6 lg:gap-10 max-w-[1360px] mx-auto pt-20 p-4 sm:p-6 lg:p-0  mt-10">
+      <div
+        ref={contentRef}
+        className="lg:ml-8 flex-1 overflow-y-auto bg-gradient-to-tl from-[#FFBC6D]/20 to-[#FFE1BE]/20 rounded-[40px] md:rounded-[96px] p-4 sm:p-10 md:p-20">
         <p className="text-[#54607A] leading-relaxed">
           Brand Name provides its service subject to the following terms, conditions, and disclaimers. Additionally, you are bound by any terms, conditions, and
           disclaimers stated on this website in relation to a specific service.
         </p>
         {sections.map((item) => (
           <div ref={sectionRefs.current[item.index]} key={item.title} id={item.title} className={``}>
-            <div className="flex flex-col gap-6 pt-10">
+            <div className="flex flex-col gap-4 sm:gap-6 pt-6 sm:pt-10">
               <h1 className={`${activeTab === item.title ? "text-primary-blue font-bold text-xl md:text-2xl" : "text-xl md:text-2xl text-black font-bold"}`}>
                 {item.title}
               </h1>
-              <p className="text-[#54607A] leading-relaxed">{item.description}</p>
+              <p className="text-[#54607A] leading-relaxed text-sm sm:text-base">{item.description}</p>
             </div>
           </div>
         ))}
@@ -82,7 +83,7 @@ const Home: React.FC = () => {
       <div className="relative">
         <div className="sticky top-12 space-y-8">
           <div className="">
-            <h1 className="text-4xl font-semibold">Menu</h1>
+            <h1 className="text-3xl sm:text-4xl font-semibold">Menu</h1>
           </div>
           <div className="relative">
             {sections.map((section, index) => (
@@ -93,7 +94,7 @@ const Home: React.FC = () => {
                   handleActiveTab(section.title);
                   handleTabClick(index);
                 }}>
-                <div className="pt-2 pb-3 px-6 cursor-pointer font-semibold flex items-center gap-x-3">
+                <div className="pt-2 pb-3 px-4 sm:px-6 cursor-pointer font-semibold flex items-center gap-x-2 sm:gap-x-3 text-sm sm:text-base">
                   <span>{index + 1}.</span>
                   <p>{section.title}</p>
                 </div>

@@ -25,19 +25,19 @@ export default function Footer() {
               </p>
               <div className="flex gap-6">
                 <Link href="https://instagram.com" target="_blank">
-                  <FaInstagram size={24} className="" />
+                  <FaInstagram size={24} className="hover:text-primary-blue transition-all duration-300 hover:scale-110" />
                 </Link>
                 <Link href="https://facebook.com" target="_blank">
-                  <FaFacebook size={24} className="" />
+                  <FaFacebook size={24} className="hover:text-primary-blue transition-all duration-300 hover:scale-110" />
                 </Link>
                 <Link href="https://x.com" target="_blank">
-                  <FaTwitter size={24} className="" />
+                  <FaTwitter size={24} className="hover:text-primary-blue transition-all duration-300 hover:scale-110" />
                 </Link>
                 <Link href="https://linkedin.com" target="_blank">
-                  <FaLinkedinIn size={24} className="" />
+                  <FaLinkedinIn size={24} className="hover:text-primary-blue transition-all duration-300 hover:scale-110" />
                 </Link>
                 <Link href="https://youtube.com" target="_blank">
-                  <FaYoutube size={24} className="" />
+                  <FaYoutube size={24} className="hover:text-primary-blue transition-all duration-300 hover:scale-110" />
                 </Link>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="space-y-8">
-                <h1 className="font-bold text-2xl sm:text-3xl">Product</h1>
+                <h1 className="font-bold text-2xl sm:text-3xl">Contact us</h1>
                 <ul className="space-y-5">
                   <li className="hover:underline cursor-pointer">+9155 456 789</li>
                   <li className="hover:underline cursor-pointer">mail@email.com </li>
@@ -97,7 +97,7 @@ export default function Footer() {
       </div>
       <div className="flex justify-center items-center py-8 sm:py-12 md:py-16">
         <p className="text-center">
-          Copyright © <span className="font-bold">Brand Name</span> 2024
+          Copyright © <span className="font-bold">Journal AI</span> 2024
         </p>
       </div>
     </footer>

@@ -312,7 +312,7 @@ export default function Home() {
                 variants={{ hidden: { opacity: 0, y: 80 }, visible: { opacity: 1, y: 0 } }}
                 classNames="bg-[#F8F8F8] px-5 sm:px-10 md:px-20 py-5 sm:py-6 md:py-12 flex flex-col md:flex-row items-center gap-10 md:gap-20 col-span-2 rounded-[40px]">
                 <div className="w-full space-y-4">
-                  <h1 className="text-2xl font-semibold">Awesome Features</h1>
+                  <h1 className="text-xl sm:text-2xl font-semibold">Awesome Features</h1>
                   <p className="text-[#54607A] leading-relaxed">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Laoreet non curabitur gravida sagittis aliquam
                     bibendum.
@@ -328,7 +328,7 @@ export default function Home() {
                 classNames="bg-[#F8F8F8] p-5 sm:p-8 rounded-[30px] sm:rounded-[40px] space-y-4 sm:space-y-7 col-span-1 block md:hidden lg:block">
                 <Image src="/assets/fast-billing.svg" alt="" width={1000} height={300} />
                 <div className="w-full space-y-4">
-                  <h1 className="text-2xl font-semibold">Fast Billing</h1>
+                  <h1 className="text-xl sm:text-2xl font-semibold">Fast Billing</h1>
                   <p className="text-[#54607A] leading-relaxed max-w-[320px]">
                     Easily integrate with all your need favorite tools through and APIsing including automatic
                   </p>
@@ -342,7 +342,7 @@ export default function Home() {
                 classNames="bg-[#F8F8F8] p-5 sm:p-8 rounded-[30px] sm:rounded-[40px] space-y-4 sm:space-y-7 col-span-1 hidden md:block lg:hidden">
                 <Image src="/assets/fast-billing.svg" alt="" width={1000} height={300} />
                 <div className="w-full space-y-4">
-                  <h1 className="text-2xl font-semibold">Fast Billing</h1>
+                  <h1 className="text-xl sm:text-2xl font-semibold">Fast Billing</h1>
                   <p className="text-[#54607A] leading-relaxed max-w-[320px]">
                     Easily integrate with all your need favorite tools through and APIsing including automatic
                   </p>
@@ -354,7 +354,7 @@ export default function Home() {
                 classNames="bg-[#F8F8F8] p-5 sm:p-8 rounded-[30px] sm:rounded-[40px] space-y-4 sm:space-y-7">
                 <Image src="/assets/easy-writing.svg" alt="" width={1000} height={300} />
                 <div className="w-full space-y-4">
-                  <h1 className="text-2xl font-semibold">Easy Writing</h1>
+                  <h1 className="text-xl sm:text-2xl font-semibold">Easy Writing</h1>
                   <p className="text-[#54607A] leading-relaxed max-w-[320px]">
                     Easily integrate with all your need favorite tools through and APIsing including automatic
                   </p>
@@ -366,7 +366,7 @@ export default function Home() {
                 classNames="bg-[#F8F8F8] p-5 sm:p-8 rounded-[30px] sm:rounded-[40px] space-y-4 sm:space-y-7">
                 <Image src="/assets/professional-notepad.svg" alt="" width={1000} height={300} />
                 <div className="w-full space-y-4">
-                  <h1 className="text-2xl font-semibold">Professional NotePad</h1>
+                  <h1 className="text-xl sm:text-2xl font-semibold">Professional NotePad</h1>
                   <p className="text-[#54607A] leading-relaxed max-w-[320px]">
                     Easily integrate with all your need favorite tools through and APIsing including automatic
                   </p>
@@ -378,7 +378,7 @@ export default function Home() {
                 classNames="bg-[#F8F8F8] p-5 sm:p-8 rounded-[30px] sm:rounded-[40px] space-y-4 sm:space-y-7">
                 <Image src="/assets/project-management.svg" alt="" width={1000} height={300} />
                 <div className="w-full space-y-4">
-                  <h1 className="text-2xl font-semibold">Project Management</h1>
+                  <h1 className="text-xl sm:text-2xl font-semibold">Project Management</h1>
                   <p className="text-[#54607A] leading-relaxed max-w-[320px]">
                     Easily integrate with all your need favorite tools through and APIsing including automatic
                   </p>
