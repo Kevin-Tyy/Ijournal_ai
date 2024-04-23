@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa6";
 
@@ -17,7 +18,8 @@ export default function Footer() {
         <div className="max-w-[1360px] mx-auto">
           <div className="flex flex-col lg:flex-row gap-y-10 justify-between gap-x-32">
             <div className="space-y-8">
-              <h1 className="text-xl font-bold ">LOGO HERE</h1>
+              <Image src="/logo/Journal Ai-light.svg" alt="ijournal" height={80} width={80} className={`w-44 max-h-16 min-w-44`} />
+
               <p className="leading-loose mt-2 max-w-2xl">
                 Lorem ipsum dolor sitonsecteturadipisicing elit sed do eiusmod temporincididunt Laoreet non sagittis aliquam bibendum.{" "}
               </p>
