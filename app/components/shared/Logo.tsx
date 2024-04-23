@@ -9,8 +9,8 @@ export default function Logo({ isLight, isMobile }: Props) {
   return (
     <Link href="/" className={``}>
       <Image
-        src="/logo/logo.svg"
-        alt="imaginate"
+        src="/logo/Journal Ai - dark.svg"
+        alt="ijournal"
         height={80}
         width={80}
         className={`w-44 max-h-16 min-w-44 ${!isLight && "w-32 min-w-32"} ${isMobile && "w-28 min-w-28"}`}

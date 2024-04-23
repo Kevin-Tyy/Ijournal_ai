@@ -4,8 +4,8 @@ import Progressbar from "@/providers/progressbar";
 
 
 export const metadata: Metadata = {
-  title: "Ijournal AI",
-  description: "Ijournal AI",
+  title: "iJournal AI",
+  description: "iJournal AI",
 };
 
 export default function RootLayout({
