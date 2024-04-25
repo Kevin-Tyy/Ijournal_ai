@@ -12,9 +12,9 @@ export default function Testimonials() {
   return (
     <div className="max-w-[1360px] mx-auto">
       <div className="w-full flex justify-center items-center gap-5">
-        {/* <button className="bg-white p-4 rounded-full hover:bg-primary-blue transition-all duration-500 hover:text-white cursor-pointer button-prev-slide">
+        <button className="bg-white p-4 rounded-full hover:bg-primary-blue transition-all duration-500 hover:text-white cursor-pointer button-prev-slide">
           <FaChevronLeft size={30} />
-        </button> */}
+        </button>
 
         <div className="w-full max-w-[1060px] mx-auto cursor-pointer">
           <Swiper
